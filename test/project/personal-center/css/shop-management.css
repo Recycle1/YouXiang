@@ -1,0 +1,96 @@
+ul li {
+	list-style: none;
+}
+
+/* .profile-detail {
+	border: #000000 solid 1px;
+}
+ */
+.profile-detail .catagory-wrapper {
+	position: relative;
+	margin: 20px 10px;
+	/* 上左下右 */
+	width: 720px;
+	height: 50px;
+	border-top: #fff solid 1px;
+	border-left: #fff solid 1px;
+	border-right: #fff solid 1px;
+	border-bottom: #f2f4f7 solid 1px;
+}
+
+.profile-detail .catagory-wrapper .catagory-text-container {
+	margin: 5px;
+	position: relative;
+	line-height: 40px;
+}
+
+.catagory-text-container .catagoty-list-nav {
+	box-sizing: border-box;
+	display: block;
+}
+
+.list-nav {
+	float: left;
+}
+
+#list-nav-active {
+	border-bottom: #FF3D37 solid 4px;
+}
+
+#list-nav-active .inner-text a {
+	color: #FF3D37;
+	font-weight: bold;
+}
+
+.inner-text {
+	display: block;
+	margin: 0 15px;
+}
+
+.inner-text a {
+	letter-spacing: 1px;
+}
+
+.inner-text a:hover {
+	color: #FF3D37;
+}
+
+.profile-content table {
+	border-bottom: #f2f4f7 solid 1px;
+	border-collapse: separate;
+	border-spacing: 0;
+	width: 730px;
+}
+
+.profile-content table tr th {
+	/* border-radius: 15px; */
+	background-color: #f2f4f7;
+	line-height: 40px;
+	padding: 3px auto;
+}
+
+.profile-content table tr th:first-child {
+	border-top-left-radius: 10px;
+}
+
+.profile-content table tr th:last-child {
+	border-top-right-radius: 10px;
+}
+
+.profile-content table tr:first-child td:first-child {
+	border-top-left-radius: 10px;
+}
+
+.profile-content table tr:last-child td:last-child {
+	border-top-right-radius: 10px;
+}
+
+
+
+.profile-content table tr td {
+	line-height: 40px;
+	padding: 2px auto;
+}
+.profile-content table tr td a:hover{
+	color: #FF3D37;
+}

@@ -1,0 +1,267 @@
+.content {
+	width: 100%;
+}
+
+.icon {
+	margin: 0 auto;
+}
+
+.icon img {
+	height: 60px;
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+.personal-container {
+	overflow: hidden;
+	width: 980px;
+	height: 100%;
+	margin: 10px auto 100px;
+	border: 1px solid #e1e2e5;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .14);
+	background: #fafafa;
+	border-radius: 4px;
+}
+
+.security-left {
+	float: left;
+	width: 17%;
+	height: 100%;
+	overflow: hidden;
+	background-color: #fafafa;
+}
+
+.security-left-title {
+	display: block;
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 14px;
+	color: #99a2aa;
+	cursor: default;
+	border-bottom: 1px solid #e1e2e5;
+}
+
+.security-left-nav {
+	flex-direction: column;
+
+}
+
+.checked{
+	background-color: #ff4e37;
+}
+.checked a{
+	color: #fff;
+	opacity: 0.9;
+}
+
+.security-left-nav li a {
+	color: #99a2aa;
+	display: block;
+	text-align: left;
+	line-height: 40px;
+	letter-spacing: 3px;
+	margin-left: 47px;
+}
+
+
+
+.notchecked{
+	/* color: #99a2aa; */
+	display: block;
+	text-align: left;
+	line-height: 40px;
+	letter-spacing: 3px;
+	margin-left: 47px;
+}
+.notchecked:hover{
+	background: #e1e4ea;
+}
+.security-left-nav li:not(.checked):hover {
+	background: #e1e4ea;
+	cursor: pointer;
+}
+
+/* .security-left-nav li:first-child {
+	background-color: #ff4e37;
+}
+
+.security-left-nav li:first-child a {
+	color: #fff;
+	opacity: 0.9;
+} */
+
+.security-right {
+	float: left;
+	width: 83%;
+	height: 720px;
+	border-left: 1px solid #ddd;
+	background: #fff;
+	/* min-height: 890px !important; */
+}
+
+.security-right-title {
+	height: 50px;
+	padding-left: 30px;
+	border-bottom: 1px solid #ddd;
+}
+
+.security-right-title-img {
+	float: left;
+	width: 20px;
+	height: 16px;
+	margin-top: 16px;
+}
+
+.security-right-title-text {
+	float: left;
+	margin: 15px 0 0 5px;
+	color: #ff4e37;
+	font-size: 12px;
+	letter-spacing: 1px;
+	cursor: default;
+}
+
+.profile-detail {
+	height: 300px;
+	margin-top: 30px;
+	/* padding-left: 40px; */
+}
+
+.tips-detail {
+	font-size: 12px;
+	font-style: italic;
+	color: #f46839;
+	height: 40px;
+}
+
+.tips-detail-img {
+	float: left;
+	width: 20px;
+	height: 16px;
+	margin-top: 16px;
+}
+
+.tips-detail-text {
+	float: left;
+	margin: 15px 0 0 5px;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-style: italic;
+	color: #f46839;
+	height: 40px;
+}
+
+#baseInfo {
+	clear: left;
+	display: block;
+}
+
+#baseInfo p {
+	line-height: 45px;
+	color: #48576a;
+}
+
+#baseInfo label {
+	display: block;
+	/* label不是块元素，如果不把它转化成块元素是不能设置宽度的 */
+	width: 80px;
+	float: left;
+}
+
+.profile-detail .pic-box {
+	margin-left: 20px;
+	display: inline-block;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	height: 80px;
+	width: 80px;
+}
+
+.profile-detail .pic-box .pic {
+	display: table-cell;
+	width: 80px;
+	/* height: 80px; */
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pic-box .pic #img {
+	display: table-cell;
+	border-radius: 5px;
+	width: 77px;
+	height: 77px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pic-box .pic img#icon {
+	display: table-cell;
+	border-radius: 5px;
+	width: 77px;
+	height: 77px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.pic-box #file_input {
+	/* display: none; */
+	font-size: 12px;
+	/*  
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity:0);
+	z-index: 999;*/
+}
+
+.error {
+	color: #f00;
+}
+
+em {
+	color: #F43838;
+}
+
+.u-text {
+	margin-left: 3px;
+}
+
+#baseInfo #submit {
+	clear: left;
+	display: block;
+	background-color: #F43838;
+	height: 25px;
+	width: 85px;
+	color: #fff;
+	margin-top: 120px;
+	margin-left: 280px;
+	border: 0;
+	border-radius: 10px;
+}
+
+#baseInfo #submit:hover {
+	background-color: #ff3d37;
+	cursor: pointer;
+}
+
+#baseInfo #apassword{
+	clear: left;
+}
+
+#baseInfo .alabel{
+	clear: left;
+	box-sizing: border-box;
+	
+}
+#baseInfo #la{
+	margin-top: 80px;
+}
+#baseInfo #apassword{
+	margin-top: 140px;
+}

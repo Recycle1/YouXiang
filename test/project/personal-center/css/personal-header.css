@@ -1,0 +1,30 @@
+.header-box {
+	width: 100%;
+	background-color: #f1f1f1;
+	display: block;
+	height: 31px;
+	line-height: 31px;
+}
+
+.con {
+	margin: 0 auto;
+	width: 1200px;
+	color: #666;
+}
+
+.header-left {
+	display: inline;
+	height: 30px;
+	width: 71px;
+}
+
+.header-right {
+	display: inline;
+	float: right;
+	height: 30px;
+	width: 71px;
+}
+
+.header-right a:hover {
+	color: #e33333;
+}
